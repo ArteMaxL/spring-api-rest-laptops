@@ -58,10 +58,10 @@ Los métodos CRUD:
 
 * Crear un perfil para DEV y otro para TEST con una propiedad nueva que carguemos en el controlador.
 
-### Ejercicio 7
+### Ejercicio 8
 
 * Desplegar el API REST de Laptops en Heroku y verificar funcionamiento desde POSTMAN.
 
-### Ejercicio 8
+### Ejercicio 9
 
 * Añadir Spring Security sobre el proyecto API REST de Laptops y configurar 2 usuarios en memoria utilizando una clase WebSecurityConfig.
