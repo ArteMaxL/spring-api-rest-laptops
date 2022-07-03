@@ -19,7 +19,8 @@ public class HelloController {
                 <h3>Demo de Aplicacion con Spring Security</h3>
                 <p>Solo user: admin, password: 12345</p>
                 <p>Tiene acceso completo al CRUD y a Swagger</p>
-                <p>Endpoint Swagger: swagger-ui/</p>
+                <a href="https://spring-api-rest-aptop.herokuapp.com/swagger-ui/">Swagger Docs</a>
+                <a href="https://spring-api-rest-aptop.herokuapp.com/api/laptops">CRUD Laptops</a>
                 </br>
                 <p>Solo user: user, password: 123</p>
                 <p>Tiene acceso al CRUD</p>
