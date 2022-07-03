@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "3352ceee-7412-4fbd-aabc-5adec8de10fb",
+		"name": "OB Spring REST Laptop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17183774"
+	},
+	"item": [
+		{
+			"name": "/api/laptops BUSCAR TODAS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/laptops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptops/{id} BUSCAR POR ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/laptops/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptops",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptops CREAR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"brand\": \"Asus\",\n        \"model\": \"Ryzen7\",\n        \"price\": 300.24,\n        \"releaseDate\": \"2021-07-20\",\n        \"inStock\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/laptops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptops MODIFICAR",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"brand\": \"Asus\",\n        \"model\": \"Ryzen7\",\n        \"price\": 300.24,\n        \"releaseDate\": \"2021-07-20\",\n        \"inStock\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/laptops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptops/{id} BORRAR POR ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"brand\": \"Asus\",\n        \"model\": \"Ryzen7\",\n        \"price\": 300.24,\n        \"releaseDate\": \"2021-07-20\",\n        \"inStock\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/laptops/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptops",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptops/deleteall BORRAR TODO",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"brand\": \"Asus\",\n        \"model\": \"Ryzen7\",\n        \"price\": 300.24,\n        \"releaseDate\": \"2021-07-20\",\n        \"inStock\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/laptops/deleteall",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptops",
+						"deleteall"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

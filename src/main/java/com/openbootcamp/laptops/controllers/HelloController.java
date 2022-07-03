@@ -10,9 +10,19 @@ public class HelloController {
     @Value("${app.message}")
     String message;
 
-    @GetMapping("/api/saludo")
+    @GetMapping("/")
     public String saludar(){
         System.out.println(message);
-        return "<h1>Hola OpenBootcamp!</h1>";
+        return """
+                <h1>Hola SpringBoot!</h1>
+                </br>
+                <h3>Demo de Aplicacion con Spring Security</h3>
+                <p>Solo user: admin, password: 12345</p>
+                <p>Tiene acceso completo al CRUD y a Swagger</p>
+                <p>Endpoint Swagger: swagger-ui/</p>
+                </br>
+                <p>Solo user: user, password: 123</p>
+                <p>Tiene acceso al CRUD</p>
+                """;
     }
 }

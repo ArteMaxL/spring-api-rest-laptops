@@ -30,7 +30,7 @@ public class SwaggerConfig {
     }
     private ApiInfo apiDetails(){
         return new ApiInfo("Spring Boot Laptop API REST",
-                "Ejercicios 7-8-9",
+                "Demo de API REST con SpringBoot en Heroku",
                 "1.0",
                 "http://www.google.com.ar",
                 new Contact("Artemio","http://www.google.com.ar","arte@mio.com"),
