@@ -20,6 +20,7 @@ public class HelloController {
                 <p>Solo user: admin, password: 12345</p>
                 <p>Tiene acceso completo al CRUD y a Swagger</p>
                 <a href="https://spring-api-rest-aptop.herokuapp.com/swagger-ui/">Swagger Docs</a>
+                </br>
                 <a href="https://spring-api-rest-aptop.herokuapp.com/api/laptops">CRUD Laptops</a>
                 </br>
                 <p>Solo user: user, password: 123</p>
